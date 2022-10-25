@@ -1,11 +1,21 @@
-
-<h1>Big Header</h1>
-<p>This is where you'll put the main page content. This content will differ for each page.</p>
-<p>This is where you'll put the main page content. This content will differ for each page.</p>
-<p>This is where you'll put the main page content. This content will differ for each page.</p>
-<p>This is where you'll put the main page content. This content will differ for each page.</p>
-<h2>Subheader</h2>
-<p>This is where you'll put the main page content. This content will differ for each page.</p>
-<p>This is where you'll put the main page content. This content will differ for each page.</p>
-<p>This is where you'll put the main page content. This content will differ for each page.</p>
-<p>This is where you'll put the main page content. This content will differ for each page.</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang quản trị</title>
+    <link rel="stylesheet" type="text/css" href="css/styleAdmin.css">
+</head>
+<body>
+    <h3 class="title_admin">Wellcome To Admin</h3>
+    <div class="wrapper">
+        <?php 
+        include("modules/header.php"); 
+        include("modules/menu.php");
+        include("modules/main.php");
+        include("modules/footer.php");
+        ?>     
+    </div>
+</body>
+</html>
